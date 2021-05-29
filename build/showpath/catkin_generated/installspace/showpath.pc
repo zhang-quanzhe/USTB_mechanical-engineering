@@ -1,0 +1,8 @@
+prefix=/home/ustb814/car/install
+
+Name: showpath
+Description: Description of showpath
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

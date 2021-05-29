@@ -1,0 +1,8 @@
+prefix=/home/ustb814/car/install
+
+Name: optitrack_port
+Description: Description of optitrack_port
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -loptitrack_port
+Requires: roscpp rospy std_msgs

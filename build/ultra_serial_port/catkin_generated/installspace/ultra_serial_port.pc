@@ -1,0 +1,8 @@
+prefix=/home/ustb814/car/install
+
+Name: ultra_serial_port
+Description: Description of ultra_serial_port
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lultra_serial_port
+Requires: roscpp rospy std_msgs message_runtime

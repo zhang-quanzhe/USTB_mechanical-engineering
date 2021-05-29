@@ -1,0 +1,8 @@
+prefix=/home/ustb814/car/devel
+
+Name: path_planning
+Description: Description of path_planning
+Version: 1.0.0
+Cflags: -I/home/ustb814/car/src/path_planning/include
+Libs: -L${prefix}/lib -lpath_planning
+Requires: roscpp std_msgs visualization_msgs

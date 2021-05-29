@@ -1,0 +1,2 @@
+cancontrol:car_navigation:optitrack_port:path_planning:sbg_ros_rec:show_path:ultra_serial_port
+-DCATKIN_DEVEL_PREFIX=/home/ustb814/car/devel -DCMAKE_INSTALL_PREFIX=/home/ustb814/car/install -G Unix Makefiles

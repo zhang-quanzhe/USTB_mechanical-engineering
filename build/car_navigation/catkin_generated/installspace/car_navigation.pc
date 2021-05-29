@@ -1,0 +1,8 @@
+prefix=/home/ustb814/car/install
+
+Name: car_navigation
+Description: Description of car_navigation
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lcar_navigation
+Requires: nav_msgs roscpp rospy sensor_msgs std_msgs tf message_runtime
